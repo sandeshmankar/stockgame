@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Us Stock",
+    "children": [
+      {
+        "name": "usindex",
+        "childrens": [
+          {
+            "url": "usindex",
+            "name": "5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "btc1",
+    "name": "Cypto Currency",
+    "children": [
+      {
+        "url": "btc1",
+        "name": "btc1",
+        "childrens": [
+          {
+            "url": "btc1",
+            "name": "1"
+          },
+          {
+            "url": "btc5",
+            "name": "5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "China Stock",
+    "children": [
+      {
+        "name": "sh000001",
+        "childrens": [
+          {
+            "url": "sh000001",
+            "name": "5"
+          }
+        ]
+      },
+      {
+        "name": "sz399001",
+        "childrens": [
+          {
+            "url": "sz399001",
+            "name": "5"
+          }
+        ]
+      },
+      {
+        "name": "sh000300",
+        "childrens": [
+          {
+            "url": "sh000300",
+            "name": "5"
+          }
+        ]
+      },
+      {
+        "name": "sz399415",
+        "childrens": [
+          {
+            "url": "sz399415",
+            "name": "5"
+          }
+        ]
+      }
+    ]
+  }
+]

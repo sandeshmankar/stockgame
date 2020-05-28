@@ -1,0 +1,686 @@
+{
+  "firstDigit": [
+    {
+      "ruleID": 1,
+      "name": "FD_BIG"
+    },
+    {
+      "ruleID": 2,
+      "name": "FD_SMALL"
+    },
+    {
+      "ruleID": 3,
+      "name": "FD_ODD"
+    },
+    {
+      "ruleID": 4,
+      "name": "FD_EVEN"
+    },
+    {
+      "ruleID": 5,
+      "name": "FD_HIGH"
+    },
+    {
+      "ruleID": 6,
+      "name": "FD_MID"
+    },
+    {
+      "ruleID": 7,
+      "name": "FD_LOW"
+    },
+    {
+      "ruleID": 8,
+      "name": "FD_0"
+    },
+    {
+      "ruleID": 9,
+      "name": "FD_1"
+    },
+    {
+      "ruleID": 10,
+      "name": "FD_2"
+    },
+    {
+      "ruleID": 11,
+      "name": "FD_3"
+    },
+    {
+      "ruleID": 12,
+      "name": "FD_4"
+    },
+    {
+      "ruleID": 13,
+      "name": "FD_5"
+    },
+    {
+      "ruleID": 14,
+      "name": "FD_6"
+    },
+    {
+      "ruleID": 15,
+      "name": "FD_7"
+    },
+    {
+      "ruleID": 16,
+      "name": "FD_8"
+    },
+    {
+      "ruleID": 17,
+      "name": "FD_9"
+    }
+  ],
+  "lastDigit": [
+    {
+      "ruleID": 18,
+      "name": "LD_BIG"
+    },
+    {
+      "ruleID": 19,
+      "name": "LD_SMALL"
+    },
+    {
+      "ruleID": 20,
+      "name": "LD_ODD"
+    },
+    {
+      "ruleID": 21,
+      "name": "LD_EVEN"
+    },
+    {
+      "ruleID": 22,
+      "name": "LD_HIGH"
+    },
+    {
+      "ruleID": 23,
+      "name": "LD_MID"
+    },
+    {
+      "ruleID": 24,
+      "name": "LD_LOW"
+    },
+    {
+      "ruleID": 25,
+      "name": "LD_0"
+    },
+    {
+      "ruleID": 26,
+      "name": "LD_1"
+    },
+    {
+      "ruleID": 27,
+      "name": "LD_2"
+    },
+    {
+      "ruleID": 28,
+      "name": "LD_3"
+    },
+    {
+      "ruleID": 29,
+      "name": "LD_4"
+    },
+    {
+      "ruleID": 30,
+      "name": "LD_5"
+    },
+    {
+      "ruleID": 31,
+      "name": "LD_6"
+    },
+    {
+      "ruleID": 32,
+      "name": "LD_7"
+    },
+    {
+      "ruleID": 33,
+      "name": "LD_8"
+    },
+    {
+      "ruleID": 34,
+      "name": "LD_9"
+    }
+  ],
+  "bothDigit": [
+    {
+      "ruleID": 142,
+      "name": "BD_BIG"
+    },
+    {
+      "ruleID": 143,
+      "name": "BD_SMALL"
+    },
+    {
+      "ruleID": 144,
+      "name": "BD_ODD"
+    },
+    {
+      "ruleID": 145,
+      "name": "BD_EVEN"
+    },
+    {
+      "ruleID": 146,
+      "name": "BD_HIGH"
+    },
+    {
+      "ruleID": 147,
+      "name": "BD_MID"
+    },
+    {
+      "ruleID": 148,
+      "name": "BD_LOW"
+    },
+    {
+      "ruleID": 169,
+      "name": "BD_TIE"
+    },
+    {
+      "ruleID": 149,
+      "name": "BD_0"
+    },
+    {
+      "ruleID": 150,
+      "name": "BD_1"
+    },
+    {
+      "ruleID": 151,
+      "name": "BD_2"
+    },
+    {
+      "ruleID": 152,
+      "name": "BD_3"
+    },
+    {
+      "ruleID": 153,
+      "name": "BD_4"
+    },
+    {
+      "ruleID": 154,
+      "name": "BD_5"
+    },
+    {
+      "ruleID": 155,
+      "name": "BD_6"
+    },
+    {
+      "ruleID": 156,
+      "name": "BD_7"
+    },
+    {
+      "ruleID": 157,
+      "name": "BD_8"
+    },
+    {
+      "ruleID": 158,
+      "name": "BD_9"
+    },
+    {
+      "ruleID": 159,
+      "name": "BD_10"
+    },
+    {
+      "ruleID": 160,
+      "name": "BD_11"
+    },
+    {
+      "ruleID": 161,   
+      "name": "BD_12"
+    },
+    {
+      "ruleID": 162,
+      "name": "BD_13"
+    },
+    {
+      "ruleID": 163,
+      "name": "BD_14"
+    },
+    {
+      "ruleID": 164,
+      "name": "BD_15"
+    },
+    {
+      "ruleID": 165,
+      "name": "BD_16"
+    },
+    {
+      "ruleID": 166,
+      "name": "BD_17"
+    },
+    {
+      "ruleID": 167,
+      "name": "BD_18"
+    }
+  ],
+  "twoDigit": [
+    {
+      "ruleID": 35,
+      "name": "TD_BIG"
+    },
+    {
+      "ruleID": 36,
+      "name": "TD_SMALL"
+    },
+    {
+      "ruleID": 37,
+      "name": "TD_ODD"
+    },
+    {
+      "ruleID": 38,
+      "name": "TD_EVEN"
+    },
+    {
+      "ruleID": 39,
+      "name": "TD_HIGH"
+    },
+    {
+      "ruleID": 40,
+      "name": "TD_MID"
+    },
+    {
+      "ruleID": 41,
+      "name": "TD_LOW"
+    },
+    {
+      "ruleID": 168,
+      "name": "TD_TIE"
+    },
+    {
+      "ruleID": 42,
+      "name": "TD_0"
+    },
+    {
+      "ruleID": 43,
+      "name": "TD_1"
+    },
+    {
+      "ruleID": 44,
+      "name": "TD_2"
+    },
+    {
+      "ruleID": 45,
+      "name": "TD_3"
+    },
+    {
+      "ruleID": 46,
+      "name": "TD_4"
+    },
+    {
+      "ruleID": 47,
+      "name": "TD_5"
+    },
+    {
+      "ruleID": 48,
+      "name": "TD_6"
+    },
+    {
+      "ruleID": 49,
+      "name": "TD_7"
+    },
+    {
+      "ruleID": 50,
+      "name": "TD_8"
+    },
+    {
+      "ruleID": 51,
+      "name": "TD_9"
+    },
+    {
+      "ruleID": 52,
+      "name": "TD_10"
+    },
+    {
+      "ruleID": 53,
+      "name": "TD_11"
+    },
+    {
+      "ruleID": 54,
+      "name": "TD_12"
+    },
+    {
+      "ruleID": 55,
+      "name": "TD_13"
+    },
+    {
+      "ruleID": 56,
+      "name": "TD_14"
+    },
+    {
+      "ruleID": 57,
+      "name": "TD_15"
+    },
+    {
+      "ruleID": 58,
+      "name": "TD_16"
+    },
+    {
+      "ruleID": 59,
+      "name": "TD_17"
+    },
+    {
+      "ruleID": 60,
+      "name": "TD_18"
+    },
+    {
+      "ruleID": 61,
+      "name": "TD_19"
+    },
+    {
+      "ruleID": 62,
+      "name": "TD_20"
+    },
+    {
+      "ruleID": 63,
+      "name": "TD_21"
+    },
+    {
+      "ruleID": 64,
+      "name": "TD_22"
+    },
+    {
+      "ruleID": 65,
+      "name": "TD_23"
+    },
+    {
+      "ruleID": 66,
+      "name": "TD_24"
+    },
+    {
+      "ruleID": 67,
+      "name": "TD_25"
+    },
+    {
+      "ruleID": 68,
+      "name": "TD_26"
+    },
+    {
+      "ruleID": 69,
+      "name": "TD_27"
+    },
+    {
+      "ruleID": 70,
+      "name": "TD_28"
+    },
+    {
+      "ruleID": 71,
+      "name": "TD_29"
+    },
+    {
+      "ruleID": 72,
+      "name": "TD_30"
+    },
+    {
+      "ruleID": 73,
+      "name": "TD_31"
+    },
+    {
+      "ruleID": 74,
+      "name": "TD_32"
+    },
+    {
+      "ruleID": 75,
+      "name": "TD_33"
+    },
+    {
+      "ruleID": 76,
+      "name": "TD_34"
+    },
+    {
+      "ruleID": 77,
+      "name": "TD_35"
+    },
+    {
+      "ruleID": 78,
+      "name": "TD_36"
+    },
+    {
+      "ruleID": 79,
+      "name": "TD_37"
+    },
+    {
+      "ruleID": 80,
+      "name": "TD_38"
+    },
+    {
+      "ruleID": 81,
+      "name": "TD_39"
+    },
+    {
+      "ruleID": 82,
+      "name": "TD_40"
+    },
+    {
+      "ruleID": 83,
+      "name": "TD_41"
+    },
+    {
+      "ruleID": 84,
+      "name": "TD_42"
+    },
+    {
+      "ruleID": 85,
+      "name": "TD_43"
+    },
+    {
+      "ruleID": 86,
+      "name": "TD_44"
+    },
+    {
+      "ruleID": 87,
+      "name": "TD_45"
+    },
+    {
+      "ruleID": 88,
+      "name": "TD_46"
+    },
+    {
+      "ruleID": 89,
+      "name": "TD_47"
+    },
+    {
+      "ruleID": 90,
+      "name": "TD_48"
+    },
+    {
+      "ruleID": 91,
+      "name": "TD_49"
+    },
+    {
+      "ruleID": 92,
+      "name": "TD_50"
+    },
+    {
+      "ruleID": 93,
+      "name": "TD_51"
+    },
+    {
+      "ruleID": 94,
+      "name": "TD_52"
+    },
+    {
+      "ruleID": 95,
+      "name": "TD_53"
+    },
+    {
+      "ruleID": 96,
+      "name": "TD_54"
+    },
+    {
+      "ruleID": 97,
+      "name": "TD_55"
+    },
+    {
+      "ruleID": 98,
+      "name": "TD_56"
+    },
+    {
+      "ruleID": 99,
+      "name": "TD_57"
+    },
+    {
+      "ruleID": 100,
+      "name": "TD_58"
+    },
+    {
+      "ruleID": 101,
+      "name": "TD_59"
+    },
+    {
+      "ruleID": 102,
+      "name": "TD_60"
+    },
+    {
+      "ruleID": 103,
+      "name": "TD_61"
+    },
+    {
+      "ruleID": 104,
+      "name": "TD_62"
+    },
+    {
+      "ruleID": 105,
+      "name": "TD_63"
+    },
+    {
+      "ruleID": 106,
+      "name": "TD_64"
+    },
+    {
+      "ruleID": 107,
+      "name": "TD_65"
+    },
+    {
+      "ruleID": 108,
+      "name": "TD_66"
+    },
+    {
+      "ruleID": 109,
+      "name": "TD_67"
+    },
+    {
+      "ruleID": 110,
+      "name": "TD_68"
+    },
+    {
+      "ruleID": 111,
+      "name": "TD_69"
+    },
+    {
+      "ruleID": 112,
+      "name": "TD_70"
+    },
+    {
+      "ruleID": 113,
+      "name": "TD_71"
+    },
+    {
+      "ruleID": 114,
+      "name": "TD_72"
+    },
+    {
+      "ruleID": 115,
+      "name": "TD_73"
+    },
+    {
+      "ruleID": 116,
+      "name": "TD_74"
+    },
+    {
+      "ruleID": 117,
+      "name": "TD_75"
+    },
+    {
+      "ruleID": 118,
+      "name": "TD_76"
+    },
+    {
+      "ruleID": 119,
+      "name": "TD_77"
+    },
+    {
+      "ruleID": 120,
+      "name": "TD_78"
+    },
+    {
+      "ruleID": 121,
+      "name": "TD_79"
+    },
+    {
+      "ruleID": 122,
+      "name": "TD_80"
+    },
+    {
+      "ruleID": 123,
+      "name": "TD_81"
+    },
+    {
+      "ruleID": 124,
+      "name": "TD_82"
+    },
+    {
+      "ruleID": 125,
+      "name": "TD_83"
+    },
+    {
+      "ruleID": 126,
+      "name": "TD_84"
+    },
+    {
+      "ruleID": 127,
+      "name": "TD_85"
+    },
+    {
+      "ruleID": 128,
+      "name": "TD_86"
+    },
+    {
+      "ruleID": 129,
+      "name": "TD_87"
+    },
+    {
+      "ruleID": 130,
+      "name": "TD_88"
+    },
+    {
+      "ruleID": 131,
+      "name": "TD_89"
+    },
+    {
+      "ruleID": 132,
+      "name": "TD_90"
+    },
+    {
+      "ruleID": 133,
+      "name": "TD_91"
+    },
+    {
+      "ruleID": 134,
+      "name": "TD_92"
+    },
+    {
+      "ruleID": 135,
+      "name": "TD_93"
+    },
+    {
+      "ruleID": 136,
+      "name": "TD_94"
+    },
+    {
+      "ruleID": 137,
+      "name": "TD_95"
+    },
+    {
+      "ruleID": 138,
+      "name": "TD_96"
+    },
+    {
+      "ruleID": 139,
+      "name": "TD_97"
+    },
+    {
+      "ruleID": 140,
+      "name": "TD_98"
+    },
+    {
+      "ruleID": 141,
+      "name": "TD_99"
+    }
+  ]
+}

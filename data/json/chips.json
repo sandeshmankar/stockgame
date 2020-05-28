@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Danger",
+    "img": "/chip/danger.png",
+    "price": "10"
+  },
+  {
+    "title": "Primary",
+    "img": "/chip/primary.png",
+    "price": "50"
+  },
+  {
+    "title": "success",
+    "img": "/chip/success.png",
+    "price": "100"
+  },
+  {
+    "title": "yellow ",
+    "img": "/chip/yellow.png",
+    "price": "500"
+  },
+  {
+    "title": "warning",
+    "img": "/chip/warning.png",
+    "price": "1000"
+  },
+  {
+    "title": "black",
+    "img": "/chip/black.png",
+    "price": "5000"
+  }
+]

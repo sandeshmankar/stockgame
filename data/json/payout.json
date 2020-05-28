@@ -1,0 +1,1692 @@
+[
+  {
+    "id": 1015,
+    "ruleName": "firstdigit-big",
+    "isMatched": "5,6,7,8,9",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1016,
+    "ruleName": "firstdigit-small",
+    "isMatched": "0,1,2,3,4",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1017,
+    "ruleName": "firstdigit-odd",
+    "isMatched": "1,3,5,7,9",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1018,
+    "ruleName": "firstdigit-even",
+    "isMatched": "0,2,4,6,8",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1019,
+    "ruleName": "firstdigit-high",
+    "isMatched": "0,1,2,3",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1020,
+    "ruleName": "firstdigit-mid",
+    "isMatched": "4,5,6",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1021,
+    "ruleName": "firstdigit-low",
+    "isMatched": "7,8,9",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1022,
+    "ruleName": "lastdigit-big",
+    "isMatched": "5,6,7,8,9",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1023,
+    "ruleName": "lastdigit-small",
+    "isMatched": "0,1,2,3,4",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1024,
+    "ruleName": "lastdigit-odd",
+    "isMatched": "1,3,5,7,9",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1025,
+    "ruleName": "lastdigit-even",
+    "isMatched": "0,2,4,6,8",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1026,
+    "ruleName": "lastdigit-high",
+    "isMatched": "0,1,2,3",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1027,
+    "ruleName": "lastdigit-mid",
+    "isMatched": "4,5,6",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1028,
+    "ruleName": "lastdigit-low",
+    "isMatched": "7,8,9",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1029,
+    "ruleName": "bothdigit-big",
+    "isMatched": "10,11,12,13,14,15,16,17,18",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1030,
+    "ruleName": "bothdigit-tie",
+    "isMatched": "0",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1031,
+    "ruleName": "bothdigit-small",
+    "isMatched": "1,2,3,4,5,6,7,8,9",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1032,
+    "ruleName": "bothdigit-odd",
+    "isMatched": "1,3,5,7,9,11,13,15,17",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1033,
+    "ruleName": "bothdigit-even",
+    "isMatched": "0,2,4,6,8,10,12,14,16,18",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1034,
+    "ruleName": "bothdigit-high",
+    "isMatched": "0,1,2,3,4,5",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1035,
+    "ruleName": "bothdigit-mid",
+    "isMatched": "6,7,8,9,10,11",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1036,
+    "ruleName": "bothdigit-low",
+    "isMatched": "12,13,14,15,16,17,18",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1037,
+    "ruleName": "twodigit-big",
+    "isMatched": "50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1038,
+    "ruleName": "twodigit-tie",
+    "isMatched": "0",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1039,
+    "ruleName": "twodigit-small",
+    "isMatched": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1040,
+    "ruleName": "twodigit-odd",
+    "isMatched": "1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63,65,67,69,71,73,75,77,79,81,83,85,87,89,91,93,95,97,99",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1041,
+    "ruleName": "twodigit-even",
+    "isMatched": "0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86,88,90,92,94,96,98",
+    "stockId": "7",
+    "initialOdds": 1.95,
+    "dynamicOdds": 1.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1042,
+    "ruleName": "twodigit-high",
+    "isMatched": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1043,
+    "ruleName": "twodigit-mid",
+    "isMatched": "34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1044,
+    "ruleName": "twodigit-low",
+    "isMatched": "67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99",
+    "stockId": "7",
+    "initialOdds": 2.95,
+    "dynamicOdds": 2.95,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1045,
+    "ruleName": "firstdigit-0",
+    "isMatched": "0",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1046,
+    "ruleName": "firstdigit-1",
+    "isMatched": "1",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1047,
+    "ruleName": "firstdigit-2",
+    "isMatched": "2",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1048,
+    "ruleName": "firstdigit-3",
+    "isMatched": "3",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1049,
+    "ruleName": "firstdigit-4",
+    "isMatched": "4",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1050,
+    "ruleName": "firstdigit-5",
+    "isMatched": "5",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1051,
+    "ruleName": "firstdigit-6",
+    "isMatched": "6",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1052,
+    "ruleName": "firstdigit-7",
+    "isMatched": "7",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1053,
+    "ruleName": "firstdigit-8",
+    "isMatched": "8",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1054,
+    "ruleName": "firstdigit-9",
+    "isMatched": "9",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1055,
+    "ruleName": "lastdigit-0",
+    "isMatched": "0",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1056,
+    "ruleName": "lastdigit-1",
+    "isMatched": "1",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1057,
+    "ruleName": "lastdigit-2",
+    "isMatched": "2",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1058,
+    "ruleName": "lastdigit-3",
+    "isMatched": "3",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1059,
+    "ruleName": "lastdigit-4",
+    "isMatched": "4",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1060,
+    "ruleName": "lastdigit-5",
+    "isMatched": "5",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1061,
+    "ruleName": "lastdigit-6",
+    "isMatched": "6",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1062,
+    "ruleName": "lastdigit-7",
+    "isMatched": "7",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1063,
+    "ruleName": "lastdigit-8",
+    "isMatched": "8",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1064,
+    "ruleName": "lastdigit-9",
+    "isMatched": "9",
+    "stockId": "7",
+    "initialOdds": 9.82,
+    "dynamicOdds": 9.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1065,
+    "ruleName": "bothdigit-0",
+    "isMatched": "0",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1066,
+    "ruleName": "bothdigit-1",
+    "isMatched": "1",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1067,
+    "ruleName": "bothdigit-2",
+    "isMatched": "2",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1068,
+    "ruleName": "bothdigit-3",
+    "isMatched": "3",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1069,
+    "ruleName": "bothdigit-4",
+    "isMatched": "4",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1070,
+    "ruleName": "bothdigit-5",
+    "isMatched": "5",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1071,
+    "ruleName": "bothdigit-6",
+    "isMatched": "6",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1072,
+    "ruleName": "bothdigit-7",
+    "isMatched": "7",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1073,
+    "ruleName": "bothdigit-8",
+    "isMatched": "8",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1074,
+    "ruleName": "bothdigit-9",
+    "isMatched": "9",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1075,
+    "ruleName": "bothdigit-10",
+    "isMatched": "10",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1076,
+    "ruleName": "bothdigit-11",
+    "isMatched": "11",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1077,
+    "ruleName": "bothdigit-12",
+    "isMatched": "12",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1078,
+    "ruleName": "bothdigit-13",
+    "isMatched": "13",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1079,
+    "ruleName": "bothdigit-14",
+    "isMatched": "14",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1080,
+    "ruleName": "bothdigit-15",
+    "isMatched": "15",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1081,
+    "ruleName": "bothdigit-16",
+    "isMatched": "16",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1082,
+    "ruleName": "bothdigit-17",
+    "isMatched": "17",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1083,
+    "ruleName": "bothdigit-18",
+    "isMatched": "18",
+    "stockId": "7",
+    "initialOdds": 19.92,
+    "dynamicOdds": 19.92,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1084,
+    "ruleName": "twodigit-00",
+    "isMatched": "00",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1085,
+    "ruleName": "twodigit-01",
+    "isMatched": "01",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1086,
+    "ruleName": "twodigit-02",
+    "isMatched": "02",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1087,
+    "ruleName": "twodigit-03",
+    "isMatched": "03",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1088,
+    "ruleName": "twodigit-04",
+    "isMatched": "04",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1089,
+    "ruleName": "twodigit-05",
+    "isMatched": "05",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1090,
+    "ruleName": "twodigit-06",
+    "isMatched": "06",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1091,
+    "ruleName": "twodigit-07",
+    "isMatched": "07",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1092,
+    "ruleName": "twodigit-08",
+    "isMatched": "08",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1093,
+    "ruleName": "twodigit-09",
+    "isMatched": "09",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1094,
+    "ruleName": "twodigit-10",
+    "isMatched": "10",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1095,
+    "ruleName": "twodigit-11",
+    "isMatched": "11",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1096,
+    "ruleName": "twodigit-12",
+    "isMatched": "12",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1097,
+    "ruleName": "twodigit-13",
+    "isMatched": "13",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1098,
+    "ruleName": "twodigit-14",
+    "isMatched": "14",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1099,
+    "ruleName": "twodigit-15",
+    "isMatched": "15",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1100,
+    "ruleName": "twodigit-16",
+    "isMatched": "16",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1101,
+    "ruleName": "twodigit-17",
+    "isMatched": "17",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1102,
+    "ruleName": "twodigit-18",
+    "isMatched": "18",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1103,
+    "ruleName": "twodigit-19",
+    "isMatched": "19",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1104,
+    "ruleName": "twodigit-20",
+    "isMatched": "20",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1105,
+    "ruleName": "twodigit-21",
+    "isMatched": "21",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1106,
+    "ruleName": "twodigit-22",
+    "isMatched": "22",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1107,
+    "ruleName": "twodigit-23",
+    "isMatched": "23",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1108,
+    "ruleName": "twodigit-24",
+    "isMatched": "24",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1109,
+    "ruleName": "twodigit-25",
+    "isMatched": "25",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1110,
+    "ruleName": "twodigit-26",
+    "isMatched": "26",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1111,
+    "ruleName": "twodigit-27",
+    "isMatched": "27",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1112,
+    "ruleName": "twodigit-28",
+    "isMatched": "28",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1113,
+    "ruleName": "twodigit-29",
+    "isMatched": "29",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1114,
+    "ruleName": "twodigit-30",
+    "isMatched": "30",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1115,
+    "ruleName": "twodigit-31",
+    "isMatched": "31",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1116,
+    "ruleName": "twodigit-32",
+    "isMatched": "32",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1117,
+    "ruleName": "twodigit-33",
+    "isMatched": "33",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1118,
+    "ruleName": "twodigit-34",
+    "isMatched": "34",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1119,
+    "ruleName": "twodigit-35",
+    "isMatched": "35",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1120,
+    "ruleName": "twodigit-36",
+    "isMatched": "36",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1121,
+    "ruleName": "twodigit-37",
+    "isMatched": "37",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1122,
+    "ruleName": "twodigit-38",
+    "isMatched": "38",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1123,
+    "ruleName": "twodigit-39",
+    "isMatched": "39",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1124,
+    "ruleName": "twodigit-40",
+    "isMatched": "40",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1125,
+    "ruleName": "twodigit-41",
+    "isMatched": "41",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1126,
+    "ruleName": "twodigit-42",
+    "isMatched": "42",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1127,
+    "ruleName": "twodigit-43",
+    "isMatched": "43",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1128,
+    "ruleName": "twodigit-44",
+    "isMatched": "44",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1129,
+    "ruleName": "twodigit-45",
+    "isMatched": "45",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1130,
+    "ruleName": "twodigit-46",
+    "isMatched": "46",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1131,
+    "ruleName": "twodigit-47",
+    "isMatched": "47",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1132,
+    "ruleName": "twodigit-48",
+    "isMatched": "48",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1133,
+    "ruleName": "twodigit-49",
+    "isMatched": "49",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1134,
+    "ruleName": "twodigit-50",
+    "isMatched": "50",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1135,
+    "ruleName": "twodigit-51",
+    "isMatched": "51",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1136,
+    "ruleName": "twodigit-52",
+    "isMatched": "52",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1137,
+    "ruleName": "twodigit-53",
+    "isMatched": "53",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1138,
+    "ruleName": "twodigit-54",
+    "isMatched": "54",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1139,
+    "ruleName": "twodigit-55",
+    "isMatched": "55",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1140,
+    "ruleName": "twodigit-56",
+    "isMatched": "56",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1141,
+    "ruleName": "twodigit-57",
+    "isMatched": "57",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1142,
+    "ruleName": "twodigit-58",
+    "isMatched": "58",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1143,
+    "ruleName": "twodigit-59",
+    "isMatched": "59",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1144,
+    "ruleName": "twodigit-60",
+    "isMatched": "60",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1145,
+    "ruleName": "twodigit-61",
+    "isMatched": "61",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1146,
+    "ruleName": "twodigit-62",
+    "isMatched": "62",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1147,
+    "ruleName": "twodigit-63",
+    "isMatched": "63",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1148,
+    "ruleName": "twodigit-64",
+    "isMatched": "64",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1149,
+    "ruleName": "twodigit-65",
+    "isMatched": "65",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1150,
+    "ruleName": "twodigit-66",
+    "isMatched": "66",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1151,
+    "ruleName": "twodigit-67",
+    "isMatched": "67",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1152,
+    "ruleName": "twodigit-68",
+    "isMatched": "68",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1153,
+    "ruleName": "twodigit-69",
+    "isMatched": "69",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1154,
+    "ruleName": "twodigit-70",
+    "isMatched": "70",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1155,
+    "ruleName": "twodigit-71",
+    "isMatched": "71",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1156,
+    "ruleName": "twodigit-72",
+    "isMatched": "72",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1157,
+    "ruleName": "twodigit-73",
+    "isMatched": "73",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1158,
+    "ruleName": "twodigit-74",
+    "isMatched": "74",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1159,
+    "ruleName": "twodigit-75",
+    "isMatched": "75",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1160,
+    "ruleName": "twodigit-76",
+    "isMatched": "76",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1161,
+    "ruleName": "twodigit-77",
+    "isMatched": "77",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1162,
+    "ruleName": "twodigit-78",
+    "isMatched": "78",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1163,
+    "ruleName": "twodigit-79",
+    "isMatched": "79",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1164,
+    "ruleName": "twodigit-80",
+    "isMatched": "80",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1165,
+    "ruleName": "twodigit-81",
+    "isMatched": "81",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1166,
+    "ruleName": "twodigit-82",
+    "isMatched": "82",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1167,
+    "ruleName": "twodigit-83",
+    "isMatched": "83",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1168,
+    "ruleName": "twodigit-84",
+    "isMatched": "84",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1169,
+    "ruleName": "twodigit-85",
+    "isMatched": "85",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1170,
+    "ruleName": "twodigit-86",
+    "isMatched": "86",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1171,
+    "ruleName": "twodigit-87",
+    "isMatched": "87",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1172,
+    "ruleName": "twodigit-88",
+    "isMatched": "88",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1173,
+    "ruleName": "twodigit-89",
+    "isMatched": "89",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1174,
+    "ruleName": "twodigit-90",
+    "isMatched": "90",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1175,
+    "ruleName": "twodigit-91",
+    "isMatched": "91",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1176,
+    "ruleName": "twodigit-92",
+    "isMatched": "92",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1177,
+    "ruleName": "twodigit-93",
+    "isMatched": "93",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1178,
+    "ruleName": "twodigit-94",
+    "isMatched": "94",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1179,
+    "ruleName": "twodigit-95",
+    "isMatched": "95",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1180,
+    "ruleName": "twodigit-96",
+    "isMatched": "96",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1181,
+    "ruleName": "twodigit-97",
+    "isMatched": "97",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1182,
+    "ruleName": "twodigit-98",
+    "isMatched": "98",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "id": 1183,
+    "ruleName": "twodigit-99",
+    "isMatched": "99",
+    "stockId": "7",
+    "initialOdds": 98.82,
+    "dynamicOdds": 98.82,
+    "created_at": null,
+    "updated_at": null
+  }
+]

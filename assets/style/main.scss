@@ -1,0 +1,1026 @@
+$mainColor: #003e70;
+$mainbg: #003e70;
+$mainBgColor: #f2f4ff;
+
+.theme--light.application {
+  background-color: $mainBgColor !important;
+}
+@font-face {
+  font-family: "NotoSansLaoUI";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/NotoSerifLao-Regular.eot");
+  src: url("../fonts/NotoSerifLao-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NotoSansLaoUI-Regular.ttf") format("woff2"), url("../fonts/NotoSansLaoUI-Regular.ttf") format("woff"),
+    url("../fonts/NotoSansLaoUI-Regular.ttf") format("truetype");
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  flex: none !important;
+  margin: auto !important;
+  padding: 0 !important;
+}
+.application,
+.v-btn__content,
+.dashboard,
+span {
+  font-family: "NotoSansLaoUI", "Roboto", sans-serif !important;
+  // font-family: 'Roboto', sans-serif;
+}
+
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+  display: none !important;
+}
+
+%mainBtn {
+  background-color: $mainbg;
+  color: #ffffff;
+}
+
+%rules {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 20px 0px;
+}
+
+.bettingFooter {
+  margin-top: 5px;
+  color: #fff;
+}
+
+span.text-blue {
+  @extend %rules;
+  color: blue !important;
+}
+
+span.text-success {
+  @extend %rules;
+  color: green !important;
+}
+
+span.text-purple {
+  @extend %rules;
+  color: purple !important;
+}
+
+span.text-yellow {
+  @extend %rules;
+  color: #9d9338 !important;
+}
+
+span.text-blue-light {
+  @extend %rules;
+  color: blue !important;
+}
+
+span.text-blue-dark {
+  @extend %rules;
+}
+
+span.text-dont-no {
+  @extend %rules;
+}
+
+span.text-red {
+  @extend %rules;
+  color: red !important;
+}
+
+span.text-black {
+  @extend %rules;
+  color: #000 !important;
+  font-size: 1em;
+}
+
+%notactive {
+  background-color: transparent;
+  box-shadow: none;
+  color: $mainColor;
+  height: 50px;
+  margin: 10px 0px;
+}
+%main-btn {
+  background-color: #1db42f;
+  color: #fff !important;
+  border-radius: 8px;
+  height: 45px;
+  background: rgba(10, 177, 118, 1);
+  background: -moz-linear-gradient(left, rgba(10, 177, 118, 1) 0%, rgba(14, 177, 30, 1) 100%);
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(10, 177, 118, 1)),
+    color-stop(100%, rgba(14, 177, 30, 1))
+  );
+  -webkit-box-shadow: 17px -5px 133px 6px rgba(186, 186, 186, 0.64);
+  -moz-box-shadow: 17px -5px 133px 6px rgba(186, 186, 186, 0.64);
+  box-shadow: 17px -5px 133px 6px rgba(186, 186, 186, 0.64);
+  background: -webkit-linear-gradient(left, rgba(10, 177, 118, 1) 0%, rgba(14, 177, 30, 1) 100%);
+  background: -o-linear-gradient(left, rgba(10, 177, 118, 1) 0%, rgba(14, 177, 30, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(10, 177, 118, 1) 0%, rgba(14, 177, 30, 1) 100%);
+  background: linear-gradient(to right, rgba(10, 177, 118, 1) 0%, rgba(14, 177, 30, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ab176', endColorstr='#0eb11e', GradientType=1 );
+}
+%mainButton {
+  color: #ffffff;
+  background-color: $mainColor;
+  border-radius: 0;
+  height: 50px;
+  margin: 10px 0px;
+}
+
+.v-content__wrap {
+  .container {
+    .layout {
+      button.main-btn.v-btn--active {
+        @extend %mainButton;
+      }
+      button.main-btn.back {
+        color: #ffffff;
+        float: left;
+        background-color: $mainbg;
+      }
+      button.main-btn {
+        @extend %notactive;
+      }
+      .flex {
+        .layout {
+          .flex {
+            .p-relative {
+              .layout {
+                .w20 {
+                  span {
+                    .popper {
+                      .layout {
+                        .flex {
+                          .layout {
+                            .flex {
+                              .v-avatar {
+                                .v-responsive {
+                                  .v-responsive__content {
+                                    top: 18px;
+                                    // position: relative;
+                                    position: initial;
+                                    display: inline-block;
+                                    font-size: 0.8rem;
+                                    text-align: center;
+                                    align-items: center;
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.d-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  .v-avatar {
+    background-color: #f1f1f196;
+    padding: 80px;
+    margin: 10px;
+  }
+  p {
+    margin: 0;
+    color: $mainColor;
+    font-size: 1rem;
+    text-transform: capitalize;
+    right: 50px;
+  }
+  span {
+    margin: 0 10px 0 50px;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+span.text-white {
+  i.fa.fa-bell {
+    color: #ffc107;
+  }
+}
+
+.table.table-striped {
+  tbody {
+    color: $mainColor;
+    tr {
+      .row {
+        font-size: 1rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: $mainColor;
+        padding: 20px;
+      }
+      .v-input {
+        padding: 0;
+        label {
+          color: $mainColor;
+          text-transform: uppercase;
+        }
+        .v-text-field__details {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+nav {
+  .v-toolbar__content {
+    .container.navbar {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      .layout {
+        align-items: center;
+      }
+      .v-toolbar__items {
+        a.v-btn--active {
+          height: 75px;
+          border-radius: 0px;
+          @extend %main-btn;
+        }
+        .v-btn--active:before,
+        .v-btn:hover:before,
+        .v-btn:focus:before {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+.v-window__container {
+  .v-window-item {
+    .flex {
+      table.table {
+        border: 0;
+        thead.thead-dark {
+          color: #ffffff;
+          background-color: $mainbg;
+          tr:nth-child(even) {
+            background-color: #003e702b;
+          }
+          tr {
+            height: 50px;
+            text-transform: uppercase;
+            th {
+              text-align: center;
+              border: 0;
+            }
+          }
+        }
+        tbody {
+          tr:nth-child(even) {
+            background-color: #003e702b;
+          }
+          tr {
+            height: 50px;
+            text-transform: uppercase;
+            th,
+            td {
+              text-transform: uppercase;
+              text-align: center;
+              color: $mainColor;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+    .my-bg {
+      text-align: left;
+      background-color: #003e702b;
+      .v-input {
+        .v-input__control {
+          .v-input__slot {
+            label {
+              color: $mainColor;
+              font-size: 20px;
+              font-weight: 700;
+              text-transform: uppercase;
+            }
+            .v-input--selection-controls__input {
+              .accent--text {
+                color: $mainColor !important;
+                caret-color: $mainColor !important;
+              }
+            }
+          }
+        }
+      }
+      .layout {
+        button {
+          background-color: $mainbg;
+          color: #ffffff;
+        }
+        .flex {
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          .v-responsive {
+            .v-responsive__content {
+              .text-white {
+                .v-input__control {
+                  background-color: transparent;
+                  .v-input__slot {
+                    .v-text-field__slot {
+                      input {
+                        color: #ffffff !important;
+                      }
+                    }
+                  }
+                }
+              }
+              .v-input {
+                .v-input__control {
+                  background-color: transparent;
+                  .v-input__slot {
+                    .v-text-field__slot {
+                      input {
+                        color: $mainColor;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .v-card__actions {
+            button {
+              background-color: $mainbg;
+              color: #ffffff;
+            }
+          }
+          .v-card__text {
+            font-style: italic;
+          }
+        }
+      }
+      .v-card__title {
+        color: $mainColor;
+        margin: 10px 10px 0 10px;
+        padding: 10px 10px 0 0;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      ul {
+        li {
+          .v-expansion-panel__header {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: $mainColor;
+          }
+        }
+      }
+    }
+    .v-item-group {
+      button.view-chart {
+        float: left;
+        margin-left: 10px;
+        color: #ffffff !important;
+        background-color: $mainbg !important;
+      }
+      button.more-detail {
+        float: right;
+        margin-right: 10px;
+        color: #ffffff !important;
+        background-color: $mainbg !important;
+      }
+    }
+    .layout,
+    .action {
+      .won {
+        label {
+          color: $mainColor;
+        }
+        .v-input__control {
+          background-color: transparent !important;
+        }
+      }
+      .lost {
+        label {
+          color: red;
+        }
+        .v-input__control {
+          background-color: transparent !important;
+        }
+      }
+      .more {
+        position: absolute;
+        right: 0;
+      }
+      .v-card {
+        box-shadow: none;
+        .v-card__text {
+          color: $mainColor;
+          display: block;
+          text-align: left;
+          font-size: 1rem;
+          text-transform: capitalize;
+        }
+      }
+    }
+    button.my-btn.v-btn.theme--light {
+      @extend %mainBtn;
+    }
+    button.my-btn.cancel.v-btn.theme--light {
+      @extend %mainBtn;
+      background-color: #8c8c8c;
+    }
+    button.my-btn.go {
+      margin-top: 30px;
+      height: 40px;
+    }
+    .flex.float-right {
+      position: absolute;
+      right: 0;
+      .v-input {
+        .v-input__control {
+          .v-select__slot {
+            .v-select__selections {
+              color: #ffffff;
+            }
+          }
+          .v-input__slot {
+            background-color: $mainbg;
+            label {
+              color: #ffffff;
+            }
+            .v-input__append-inner {
+              .v-input__icon {
+                i {
+                  color: #ffffff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .flex.main-select {
+      .v-input {
+        .v-input__control {
+          .v-select__slot {
+            .v-select__selections {
+              color: #ffffff;
+            }
+          }
+          .v-input__slot {
+            background-color: $mainbg;
+            label {
+              color: #ffffff;
+            }
+            .v-input__append-inner {
+              .v-input__icon {
+                i {
+                  color: #ffffff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .layout {
+      .flex {
+        .v-input {
+          margin: 20px;
+          .v-input__prepend-outer {
+            .v-input__icon {
+              i {
+                color: $mainColor;
+              }
+            }
+          }
+          .v-input__control {
+            background-color: $mainbg;
+            border-radius: 4px;
+            .v-text-field__details {
+              display: none;
+            }
+            .v-input__slot {
+              .v-text-field__slot {
+                label {
+                  color: $mainColor;
+                  font-size: 1.8rem;
+                  margin: -6px;
+                }
+                input {
+                  color: #ffffff;
+                  font-size: 1.2rem;
+                  padding: 11px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Full screen SCSS
+.application--wrap {
+  .container.bg-fullscreen.fluid {
+    background-color: rgb(0, 32, 56) !important;
+    .layout {
+      .flex {
+        .flex {
+          .p-relative {
+            .layout {
+              .w20,
+              .w16 {
+                .align_button4,
+                .align_button5 {
+                  height: 65px;
+                }
+                .betting-small {
+                  height: 20px;
+                }
+              }
+            }
+            .container-btn-small {
+              width: 100%;
+              position: relative;
+              display: inline-block;
+              span .btn-small {
+                height: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Classic
+nav {
+  .container {
+    .layout {
+      .v-btn--active {
+        color: #ffc107;
+      }
+      .v-btn--active:before,
+      .v-btn:hover:before,
+      .v-btn:focus:before {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.application {
+  .application--wrap {
+    nav.nav-tab {
+      .v-toolbar__content {
+        background-color: #fafafa;
+        height: auto !important;
+      }
+    }
+    main {
+      padding: 0 !important;
+    }
+  }
+}
+
+.application--wrap {
+  .v-toolbar {
+    .v-toolbar__content {
+      padding: 0;
+    }
+  }
+  @media (max-width: 600px) {
+    .v-content {
+      .v-content__wrap {
+        .container {
+          .remove-flex {
+            display: block;
+            margin-top: 28px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.flex {
+  .v-card {
+    .layout {
+      .flex {
+        .v-avatar {
+          .v-responsive {
+            .v-image__image {
+              background-size: 90%;
+            }
+          }
+        }
+      }
+    }
+    .v-expansion-panel {
+      .v-expansion-panel__container {
+        .v-expansion-panel__header {
+          background-color: #0b2a68;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          color: #ffffff;
+          text-transform: capitalize;
+          .v-expansion-panel__header__icon {
+            i {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// For Mobile
+@media (max-width: 600px) {
+  .flex {
+    .v-card {
+      .layout {
+        .flex {
+          .v-avatar {
+            width: 55px !important;
+          }
+        }
+      }
+    }
+  }
+  .v-expansion-panel {
+    .v-expansion-panel__container {
+      .v-expansion-panel__body {
+        .v-card {
+          .layout.row {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+.v-content__wrap {
+  .container {
+    .layout {
+      .flex {
+        // .v-input {
+        //     @media (max-width: 812px) {
+        //         .v-input__control .v-input__slot .v-text-field__slot {
+        //             border: 1px solid #003e70;
+        //             border-radius: 5px;
+        //         }
+        //         .v-input__control .v-select__selections {
+        //             border: 1px solid #003e70;
+        //             border-radius: 5px;
+        //         }
+        //     }
+        // }
+        .selectHistory {
+          @media (min-width: 1280px) {
+            .v-input__control .v-input__slot .v-select__slot .v-select__selections {
+              color: rgba(242, 242, 242, 0.87);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// breadcrumbs
+main.v-content {
+  .v-content__wrap {
+    div {
+      section.breadcrumbs {
+        background-image: url("/bg/Inner-page-banner.png");
+        background-size: cover;
+        background-position: center;
+        // margin: 0 0 30px 0;
+      }
+    }
+  }
+}
+// breadcrumbs
+
+// table
+.container {
+  .layout {
+    .flex {
+      div {
+        .v-table__overflow {
+          border-radius: 20px;
+          border: 1px solid #00000038;
+          background-color: #807d7d;
+          .v-datatable {
+            thead,
+            tbody {
+              tr {
+                td {
+                  justify-content: center;
+                  text-align: center;
+                  border: 1px solid #00000026;
+                }
+                th {
+                  color: rgba(0, 0, 0, 0.45);
+                  font-size: 17px;
+                  text-transform: uppercase;
+                  font-weight: 500;
+                  border: 1px solid rgba(0, 0, 0, 0.36863);
+                }
+              }
+            }
+            tfoot {
+              background-color: rgba(138, 138, 138, 0.18);
+              tr {
+                td {
+                  justify-content: center;
+                  text-align: center;
+                  color: rgba(0, 0, 0, 0.45);
+                  font-size: 17px;
+                  text-transform: uppercase;
+                  font-weight: 500;
+                  border: 1px solid rgba(0, 0, 0, 0.36863);
+                }
+                th {
+                  color: rgba(0, 0, 0, 0.45);
+                  font-size: 17px;
+                  text-transform: uppercase;
+                  font-weight: 500;
+                  border: 1px solid rgba(0, 0, 0, 0.36863);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// table
+
+/* Main Page design  */
+.container.image-bg.fluid.grid-list-lg.fill-height {
+  background-image: url("/bg/19928.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0px !important;
+  .layout {
+    // padding: 350px;
+    height: 47%;
+    .v-responsive {
+      .v-image__image {
+        background-size: 480px;
+      }
+    }
+  }
+}
+
+.container.bg-gmaeType.fluid.grid-list-lg.fill-height {
+  background-image: url("/bg/17580.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0px !important;
+}
+
+/* End main page */
+
+/* -------------------------------------------------------------------------- */
+/*                                Select stock                                */
+/* -------------------------------------------------------------------------- */
+.application {
+  .v-autocomplete__content.v-menu__content {
+    border-radius: 5px;
+  }
+}
+.layout.select-stock {
+  .flex {
+    .v-input {
+      .v-input__prepend-outer {
+        margin: 6px -7px;
+        border: 1px solid rgba(0, 0, 0, 0.32941);
+        border-radius: 20px;
+        padding: 0px;
+        z-index: 10;
+        background: #fafafa;
+        width: 25px;
+        height: 25px;
+      }
+      .v-input__control {
+        min-height: 40px;
+        .v-input__slot {
+          border-radius: 5px;
+          padding: 0 4px;
+          min-height: 25px;
+          .v-select__slot {
+            label,
+            input,
+            .v-select__selections {
+              margin: 0 0 0 10px;
+              color: #333;
+              text-transform: capitalize;
+            }
+          }
+          .v-text-field__slot {
+            label,
+            input {
+              margin: 0 0 0 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                               End selec stock                              */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 current bet                                */
+/* -------------------------------------------------------------------------- */
+
+.current-bet {
+  .v-table__overflow {
+    table {
+      thead {
+        tr {
+          th.column {
+            justify-content: center;
+            text-align: center !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                         this is the end current bet                        */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 bet history                                */
+/* -------------------------------------------------------------------------- */
+section.filter {
+  margin:0px 0px 30px 0;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 0px 0px rgba(0, 0, 0, 0.12) !important;
+  .layout.filter-history {
+    text-align: center;
+    .flex {
+      text-align: center;
+      .layout {
+        align-items: center;
+        .flex {
+          padding: 0 15px;
+          .v-text-field {
+            .v-label--active {
+              transform: none;
+            }
+          }
+          .v-input {
+            .v-input__control {
+              border-radius: 20px;
+              border: 1px solid #00000047;
+              padding: 6px 16px;
+              .v-input__slot {
+                .v-text-field__slot {
+                  label {
+                    top: -32px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               This is the end                              */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 pagination                                 */
+/* -------------------------------------------------------------------------- */
+.my-pagination {
+  ul {
+    li {
+      button.v-pagination__navigation,
+      button,
+      button.v-pagination__item {
+        box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+          0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 3rem !important;
+        width: 3rem !important;
+      }
+      button.v-pagination__item.v-pagination__item--active {
+        box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+          0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+        border-radius: 10px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 3rem !important;
+        width: 3rem !important;
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                select stock                                */
+/* -------------------------------------------------------------------------- */
+
+.application {
+  .v-menu__content.menuable__content__active {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    // top: 134px !important;
+    border-radius: 9px;
+    .v-select-list {
+      .v-list {
+        .blue--text {
+          .v-list__tile {
+            height: 30px !important;
+          }
+        }
+      }
+    }
+    .v-select-list {
+      .v-list {
+        div {
+          a.v-list__tile {
+            height: 30px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes menuable__content__active {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+}
+@keyframes menuable__content__active {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                       This is the end of select stock                      */
+/* -------------------------------------------------------------------------- */

@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "type": "china",
+    "stock_name": [
+      {
+        "id": 1,
+        "name": "CH0001",
+        "type": ["5 minute"]
+      },
+      {
+        "id": 2,
+        "name": "CH0002",
+        "type": ["5 minute"]
+      },
+      {
+        "id": 3,
+        "name": "CH0003",
+        "type": ["5 minute"]
+      },
+      {
+        "id": 4,
+        "name": "CH0004",
+        "type": ["5 minute"]
+      },
+      {
+        "id": 5,
+        "name": "CH0005",
+        "type": ["5 minute"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "us stock",
+    "stock_name": [
+      {
+        "id": 1,
+        "name": "us dollar index",
+        "type": ["5 minute"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "cyto currency",
+    "stock_name": [
+      {
+        "id": 1,
+        "name": "btc/ustd",
+        "type": ["1 minute", "5 minute"]
+      }
+    ]
+  }
+]

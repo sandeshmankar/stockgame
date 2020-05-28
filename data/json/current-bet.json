@@ -1,0 +1,144 @@
+{
+  "data": [
+    {
+      "typeUUID": "0eb357dc-d15f-4739-96d0-983ab92d94ee",
+      "type": "crypto",
+      "stocks": [
+        {
+          "stockUUID": "0eb357dc-d15f-4739-96d0-983ab92d94ee",
+          "stockName": "btc1",
+          "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+          "reference": "https://www.hbg.com/zh-cn/exchange/?s=btc_usdt",
+          "loops": [
+            {
+              "loopUUID": "0eb357dc-d15f-4739-96d0-983ab92d94ee",
+              "loopName": 1,
+              "livePrice": 4082.1,
+              "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+              "stockOpenOrClosed": "closed",
+              "gameCountDownInMins": 1000
+            },
+            {
+              "loopUUID": "0eb357dc-d15f-4739-96d0-9123123123",
+              "loopName": 5,
+              "livePrice": 4082.21,
+              "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+              "stockOpenOrClosed": "closed",
+              "gameCountDownInMins": 7048
+            }
+          ]
+        },
+        {
+          "stockUUID": "0eb357dc-d15f-4739-96d0-dgdsfgdfsg",
+          "stockName": "btc5",
+          "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+          "reference": "https://www.hbg.com/zh-cn/exchange/?s=btc_usdt",
+          "loops": [
+            {
+              "loopUUID": "0eb357dc-d15f-4739-96d0-sdfgdfsgsdfg",
+              "loopName": 5,
+              "livePrice": 4082.89,
+              "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+              "stockOpenOrClosed": "closed",
+              "gameCountDownInMins": 7048
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "typeUUID": "0eb357dc-d15f-4739-96d0-dsfgsdfgsdfg",
+      "type": "china",
+      "stocks": [
+        {
+          "stockUUID": "0eb357dc-d15f-4739-96d0-983absdfgdsg92d94ee",
+          "stockName": "sh00001",
+          "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+          "reference": "https://www.hbg.com/zh-cn/exchange/?s=btc_usdt",
+          "loops": [
+            {
+              "loopUUID": "0eb357dc-d15f-4739-96d0-dfsg",
+              "loopName": 5,
+              "livePrice": 4082.87,
+              "gameUUID": "ca30abcc-9f3e-40b3-80cf-sdgfd",
+              "stockOpenOrClosed": "closed",
+              "gameCountDownInMins": 7048
+            }
+          ]
+        },
+        {
+          "stockUUID": "0eb357dc-d15f-4739-96d0-dfgsdfg",
+          "stockName": "sz399415",
+          "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+          "reference": "https://www.hbg.com/zh-cn/exchange/?s=btc_usdt",
+          "loops": [
+            {
+              "loopUUID": "0eb357dc-d15f-4739-96d0-sdfgdsfg",
+              "loopName": 5,
+              "livePrice": 4082.69,
+              "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+              "stockOpenOrClosed": "closed",
+              "gameCountDownInMins": 7048
+            }
+          ]
+        },
+        {
+          "stockUUID": "0eb357dc-d15f-4739-96d0-dfsgsdfgdfsg",
+          "stockName": "sh000300",
+          "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+          "reference": "https://www.hbg.com/zh-cn/exchange/?s=btc_usdt",
+          "loops": [
+            {
+              "loopUUID": "0eb357dc-d15f-4739-96d0-dsfgsdfgd",
+              "loopName": 1,
+              "livePrice": 4082.54,
+              "gameUUID": "ca30abcc-9f3e-40b3-80cf-dsfgdfsg",
+              "stockOpenOrClosed": "closed",
+              "gameCountDownInMins": 7048
+            },
+            {
+              "loopUUID": "0eb357dc-d15f-4739-96d0-dfgsdfgdsg",
+              "loopName": 5,
+              "livePrice": 4082.45,
+              "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81adsgdfsgdsf3b1a6d",
+              "stockOpenOrClosed": "closed",
+              "gameCountDownInMins": 7048
+            }
+          ]
+        },
+        {
+          "stockUUID": "0eb357dc-d15f-4739-96d0-sdfgdsfg",
+          "stockName": "sh00001",
+          "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+          "reference": "https://www.hbg.com/zh-cn/exchange/?s=btc_usdt",
+          "loops": [
+            {
+              "loopUUID": "0eb357dc-d15f-4739-96d0-sdfgdfsg",
+              "loopName": 5,
+              "livePrice": 4082.56,
+              "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+              "stockOpenOrClosed": "closed",
+              "gameCountDownInMins": 7048
+            }
+          ]
+        },
+        {
+          "stockUUID": "0eb357dc-d15f-4739-96d0-dfsgdfsgret",
+          "stockName": "sh000300",
+          "gameUUID": "ca30abcc-9f3e-40b3-80cf-0ce81a3b1a6d",
+          "reference": "https://www.hbg.com/zh-cn/exchange/?s=btc_usdt",
+          "loops": [
+            {
+              "loopUUID": "0eb357dc-d15f-4739-96d0-dfgsdfg",
+              "loopName": 1,
+              "livePrice": 4082.76,
+              "gameUUID": "ca30abcc-9f3e-40b3-80cf-tryrtey",
+              "stockOpenOrClosed": "closed",
+              "gameCountDownInMins": 7048
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

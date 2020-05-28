@@ -1,0 +1,404 @@
+[
+  {
+    "name": "All games",
+    "children": [
+      {
+        "name": "Big-Small",
+        "payout": "1.92",
+        "childrens": [
+          {
+            "name": "big",
+            "name2": "big",
+            "name3": "big",
+            "name4": "big"
+          },
+          {
+            "name": "small",
+            "name2": "small",
+            "name3": "small",
+            "name4": "small"
+          }
+        ]
+      },
+      {
+        "name": "Odd-Even",
+        "payout": "1.92",
+        "childrens": [
+          {
+            "name": "odd",
+            "name2": "odd",
+            "name3": "odd",
+            "name4": "odd"
+          },
+          {
+            "name": "even",
+            "name2": "even",
+            "name3": "even",
+            "name4": "even"
+          }
+        ]
+      },
+      {
+        "name": "High-Mid-Low",
+        "payout": "2.92",
+        "childrens": [
+          {
+            "name": "high",
+            "name2": "high",
+            "name3": "high",
+            "name4": "high"
+          },
+          {
+            "name": "mid",
+            "name2": "mid",
+            "name3": "mid",
+            "name4": "mid"
+          },
+          {
+            "name": "low",
+            "name2": "low",
+            "name3": "low",
+            "name4": "low"
+          }
+        ]
+      },
+      {
+        "name": "Specific-Number",
+        "payout": "9.82",
+        "payoutb": "19.82",
+        "payoutt": "98.82",
+        "childrens": [
+          {
+            "name": "0",
+            "name2": "0",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "0",
+                "name2": "10"
+              }
+            ],
+            "name4": "00-09"
+          },
+          {
+            "name": "1",
+            "name2": "1",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "1",
+                "name2": "11"
+              }
+            ],
+            "name4": "10-19"
+          },
+          {
+            "name": "2",
+            "name2": "2",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "2",
+                "name2": "12"
+              }
+            ],
+            "name4": "20-29"
+          },
+          {
+            "name": "3",
+            "name2": "3",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "3",
+                "name2": "13"
+              }
+            ],
+            "name4": "30-39"
+          },
+          {
+            "name": "4",
+            "name2": "4",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "4",
+                "name2": "14"
+              }
+            ],
+            "name4": "40-49"
+          },
+          {
+            "name": "5",
+            "name2": "5",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "5",
+                "name2": "15"
+              }
+            ],
+            "name4": "50-59"
+          },
+          {
+            "name": "6",
+            "name2": "6",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "6",
+                "name2": "16"
+              }
+            ],
+            "name4": "60-69"
+          },
+          {
+            "name": "7",
+            "name2": "7",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "7",
+                "name2": "17"
+              }
+            ],
+            "name4": "70-79"
+          },
+          {
+            "name": "8",
+            "name2": "8",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "8",
+                "name2": "18"
+              }
+            ],
+            "name4": "80-89"
+          },
+          {
+            "name": "9",
+            "name2": "9",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "9",
+                "name2": "19"
+              }
+            ],
+            "name4": "90-99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Big-Small",
+
+    "children": [
+      {
+        "name": "Big-Small",
+        "payout": "1.92",
+        "childrens": [
+          {
+            "name": "big",
+            "name2": "big",
+            "name3": "big",
+            "name4": "big"
+          },
+          {
+            "name": "small",
+            "name2": "small",
+            "name3": "small",
+            "name4": "small"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Odd-Even",
+    "children": [
+      {
+        "name": "Odd-Even",
+        "payout": "1.92",
+        "childrens": [
+          {
+            "name": "odd",
+            "name2": "odd",
+            "name3": "odd",
+            "name4": "odd"
+          },
+          {
+            "name": "even",
+            "name2": "even",
+            "name3": "even",
+            "name4": "even"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "High-Mid-Low",
+    "children": [
+      {
+        "name": "High-Mid-Low",
+        "payout": "2.92",
+        "childrens": [
+          {
+            "name": "high",
+            "name2": "high",
+            "name3": "high",
+            "name4": "high"
+          },
+          {
+            "name": "mid",
+            "name2": "mid",
+            "name3": "mid",
+            "name4": "mid"
+          },
+          {
+            "name": "low",
+            "name2": "low",
+            "name3": "low",
+            "name4": "low"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Specific-Number",
+    "children": [
+      {
+        "name": "Specific-Number",
+        "payout": "9.82",
+        "payoutb": "19.82",
+        "payoutt": "98.82",
+        "childrens": [
+          {
+            "name": "0",
+            "name2": "0",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "0",
+                "name2": "10"
+              }
+            ],
+            "name4": "00-09"
+          },
+          {
+            "name": "1",
+            "name2": "1",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "1",
+                "name2": "11"
+              }
+            ],
+            "name4": "10-19"
+          },
+          {
+            "name": "2",
+            "name2": "2",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "2",
+                "name2": "12"
+              }
+            ],
+            "name4": "20-29"
+          },
+          {
+            "name": "3",
+            "name2": "3",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "3",
+                "name2": "13"
+              }
+            ],
+            "name4": "30-39"
+          },
+          {
+            "name": "4",
+            "name2": "4",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "4",
+                "name2": "14"
+              }
+            ],
+            "name4": "40-49"
+          },
+          {
+            "name": "5",
+            "name2": "5",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "5",
+                "name2": "15"
+              }
+            ],
+            "name4": "50-59"
+          },
+          {
+            "name": "6",
+            "name2": "6",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "6",
+                "name2": "16"
+              }
+            ],
+            "name4": "60-69"
+          },
+          {
+            "name": "7",
+            "name2": "7",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "7",
+                "name2": "17"
+              }
+            ],
+            "name4": "70-79"
+          },
+          {
+            "name": "8",
+            "name2": "8",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "8",
+                "name2": "18"
+              }
+            ],
+            "name4": "80-89"
+          },
+          {
+            "name": "9",
+            "name2": "9",
+            "name3": "Both Digit",
+            "childrenss": [
+              {
+                "name": "9",
+                "name2": "19"
+              }
+            ],
+            "name4": "90-99"
+          }
+        ]
+      }
+    ]
+  }
+]

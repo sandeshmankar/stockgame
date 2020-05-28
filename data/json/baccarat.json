@@ -1,0 +1,90 @@
+[
+  {
+    "namech": "bs",
+    "name": "Big-Small",
+    "children": [
+      {
+        "namech": "bsf",
+        "name": "firstdigit"
+      },
+      {
+        "namech": "bsl",
+        "name": "lastdigit"
+      },
+      {
+        "namech": "bsb",
+        "name": "bothdigit"
+      },
+      {
+        "namech": "bst",
+        "name": "twodigit"
+      }
+    ]
+  },
+  {
+    "namech": "oe",
+    "name": "Odd-Even",
+    "children": [
+      {
+        "namech": "oef",
+        "name": "firstdigit"
+      },
+      {
+        "namech": "oel",
+        "name": "lastdigit"
+      },
+      {
+        "namech": "oeb",
+        "name": "bothdigit"
+      },
+      {
+        "namech": "oet",
+        "name": "twodigit"
+      }
+    ]
+  },
+  {
+    "namech": "hml",
+    "name": "High-Mid-Low",
+    "children": [
+      {
+        "namech": "hmlf",
+        "name": "firstdigit"
+      },
+      {
+        "namech": "hmll",
+        "name": "lastdigit"
+      },
+      {
+        "namech": "hmlb",
+        "name": "bothdigit"
+      },
+      {
+        "namech": "hmlt",
+        "name": "twodigit"
+      }
+    ]
+  },
+  {
+    "namech": "sn",
+    "name": "Specific-Number",
+    "children": [
+      {
+        "namech": "snf",
+        "name": "firstdigit"
+      },
+      {
+        "namech": "snl",
+        "name": "lastdigit"
+      },
+      {
+        "namech": "snb",
+        "name": "bothdigit"
+      },
+      {
+        "namech": "snt",
+        "name": "twodigit"
+      }
+    ]
+  }
+]
